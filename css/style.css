@@ -8,18 +8,18 @@ body {
     text-shadow: 3px 3px black;
   }
   
- div {
+  div {
     font-family: "Comic Sans MS", "Comic Sans";
- }
+  }
  
   h1 {
     font-family: 'Times New Roman';
     font-size: 50px;
   }
   
-h2 {
+  h2 {
   font-size: 43px;
-}
+  }
 
   p {
     font-family: "Comic Sans MS", "Comic Sans";
@@ -60,42 +60,52 @@ h2 {
     background-color: rgb(171, 209, 255);
     position:fixed;
     right:0px
-    }
+  }
 
-    .art1 {
-      position:fixed;
-      right:2%;
-      border-radius: 100px;
-    }
-    
-    .kitty {
+    .ag-view-img {
+      border-radius: 50px;
+  }
+
+    .book-img {
+      position:relative;
+      right:-500px;
+      top:-50px;
+      border-radius: 50px;/*"rundhet"*/
+  }
+    .chess-img {
+      border-radius: 10%;
+  }
+
+    .cat-img {
       border-radius: 50%;
       width: 400px;
-      height: 405,5px;
-    }
+      height: 405.5px;
+  }
 
-  .text1 {
+  .author-mail {
     font-family: 'Times New Roman';
     font-size:15px;
     text-shadow: none;
     background-color: rgba(255, 255, 255, 0.499);
-    padding: 5px !important;
+    padding: 5px; /*tjocklek för "padding area"*/
     border-radius: 5px;
   }
 
-  p.ex {
+  p.copyright-text {
     font-family: 'Times New Roman';
     font-size:15px;
     text-shadow: none;
     background-color: rgba(255, 255, 255, 0.499);
-    padding: 5px !important;
-    color: black;
+    padding: 5px 50px 5px 50px;
     border-radius: 5px;
+    color: black;
+    
   }
 
   footer {
-    position:fixed;
-    bottom: 0px;
-    right:580px;
-    
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
